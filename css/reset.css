@@ -1,0 +1,285 @@
+/* ===========================================================
+   CamApp
+   reset.css
+   Browser Reset + Mobile Base
+   =========================================================== */
+
+/* Box Model */
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+/* Margin / Padding */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+figure,
+blockquote {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Height */
+
+html {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+
+    width: 100%;
+    min-height: 100dvh;
+
+}
+
+/* Scroll */
+
+html {
+
+    overflow: hidden;
+
+}
+
+body {
+
+    overflow: hidden;
+
+}
+
+/* Font */
+
+body {
+
+    font-family:
+
+        -apple-system,
+
+        BlinkMacSystemFont,
+
+        "Segoe UI",
+
+        Roboto,
+
+        Helvetica,
+
+        Arial,
+
+        sans-serif;
+
+    line-height: 1.4;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+/* Image */
+
+img,
+picture {
+
+    display: block;
+
+    max-width: 100%;
+
+    user-select: none;
+
+}
+
+/* Video */
+
+video {
+
+    display: block;
+
+}
+
+/* Canvas */
+
+canvas {
+
+    display: block;
+
+}
+
+/* SVG */
+
+svg {
+
+    display: block;
+
+}
+
+/* Links */
+
+a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+/* Lists */
+
+ul,
+ol {
+
+    list-style: none;
+
+}
+
+/* Buttons */
+
+button {
+
+    appearance: none;
+
+    -webkit-appearance: none;
+
+    border: none;
+
+    background: transparent;
+
+    color: inherit;
+
+    font: inherit;
+
+    cursor: pointer;
+
+    user-select: none;
+
+}
+
+/* Input */
+
+input,
+textarea,
+select {
+
+    font: inherit;
+
+    color: inherit;
+
+    background: transparent;
+
+    border: none;
+
+    outline: none;
+
+}
+
+/* Table */
+
+table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+
+/* Selection */
+
+::selection {
+
+    background: rgba(80, 120, 255, .25);
+
+}
+
+/* Disabled */
+
+[hidden] {
+
+    display: none !important;
+
+}
+
+/* Touch */
+
+* {
+
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+/* iOS Zoom Prevention */
+
+input,
+textarea,
+select {
+
+    font-size: 16px;
+
+}
+
+/* Safe Area */
+
+body {
+
+    padding:
+
+        env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+
+}
+
+/* Orientation */
+
+body {
+
+    overscroll-behavior: none;
+
+}
+
+/* Drag */
+
+img,
+video {
+
+    -webkit-user-drag: none;
+
+}
+
+/* Focus */
+
+:focus {
+
+    outline: none;
+
+}
+
+/* Animation */
+
+* {
+
+    -webkit-backface-visibility: hidden;
+
+    backface-visibility: hidden;
+
+}

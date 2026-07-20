@@ -1,21 +1,43 @@
 {
-    "id": "/edge-pwa-test/",
-    "start_url": "/edge-pwa-test/",
-    "scope": "/edge-pwa-test/",
+    "id": ".",
+    "name": "CamApp",
+    "short_name": "CamApp",
+    "description": "Secure Camera Progressive Web App",
+    "lang": "ja",
+    "dir": "ltr",
+    "start_url": ".",
+    "scope": ".",
     "display": "standalone",
-    "name": "Edge PWA Test",
-    "short_name": "EdgePWA",
-    "theme_color": "#0066ff",
-    "background_color": "#ffffff",
+    "display_override": [
+        "window-controls-overlay",
+        "standalone",
+        "minimal-ui",
+        "browser"
+    ],
+    "orientation": "any",
+    "background_color": "#111111",
+    "theme_color": "#111111",
+    "categories": [
+        "photo",
+        "productivity",
+        "utilities"
+    ],
     "icons": [
         {
-            "src": "/edge-pwa-test/icon-192.png",
+            "src": "icons/icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
-            "src": "/edge-pwa-test/icon-512.png",
+            "src": "icons/icon-512.png",
             "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/apple-touch-icon.png",
+            "sizes": "180x180",
             "type": "image/png"
         }
     ]
