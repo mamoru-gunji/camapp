@@ -22,3 +22,19 @@ async function initialize() {
 }
 
 window.addEventListener("DOMContentLoaded", initialize);
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    console.log("DOMContentLoaded");
+
+    const btn = document.getElementById("debugButton");
+
+    btn.addEventListener("click", () => {
+
+        console.log("Debug button clicked");
+
+        alert("Debug");
+
+    });
+
+});
